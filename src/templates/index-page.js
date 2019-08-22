@@ -41,7 +41,7 @@ export const IndexPageTemplate = ({
           style={{
             boxShadow:
               'rgb(0, 0, 0) 1.5rem 0px 100px, rgb(0, 0, 0) 0px 0px',
-            backgroundColor: '#2f1446',
+            backgroundColor: '#27bf6454',
             color: '#fff8e1',
             lineHeight: '1',
             padding: '0.25em',
@@ -49,7 +49,7 @@ export const IndexPageTemplate = ({
         >
           {title}
         </h1>
-        <h3
+        {/* <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
@@ -61,7 +61,7 @@ export const IndexPageTemplate = ({
           }}
         >
           {subheading}
-        </h3>
+        </h3> */}
       </div>
     </div>
     <section className="section section--gradient">
@@ -80,9 +80,9 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    {/* <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
-                    </h3>
+                    </h3> */}
                     <p>{description}</p>
                   </div>
                 </div>
